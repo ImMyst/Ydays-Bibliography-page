@@ -6,7 +6,7 @@
         <title>Bibliographie</title>
 
         <div class="jumbotron">
-          <h1 class="titre"> Bibliographie</h1>
+          <h1 class="title"> Bibliographie</h1>
 
           <!-- Alphabet from A to WXYZ  for researches -->
 
@@ -38,47 +38,52 @@
 
           <form class="form-group" action="index.html" method="get">
 
-
             <!-- Periodes 1 for the researches -->
-
-            <label for="periodes">Périodes 1:</label>
+            <div id="periodes">
+            <h4 class=periodes-title> Périodes </h4>
+            <label for="periodes">Périodes 1 :</label>
             <br/>
-            <select class="custom-select">
-            <option value selected="selected">Pas de séléction</option>
-            <option value="0"> Néolithique (jusque vers -2200) </option>
-            <option value="1"> Age du Bronze (de -2200 à -750) </option>
-            <option value="2"> Premier Age du Fer (de -750 à -475) </option>
-            <option value="3"> Deuxième Age du Fer (de -475 à -30) </option>
-            <option value="4"> Epoque romaine (de -30 à +500) </option>
-            <option value="5"> Haut Moyen Age (de 500 à 800) </option>
-            <option value="6"> Moyen Age central(de 800 à 1250) </option>
-            <option value="7"> Bas Moyen Age (de 1250 à 1450) </option>
-            <option value="8"> Gothique / Moderne (de 1450 à 1600) </option>
-            <option value="9"> Proto-industriel (de 1600 à 1914) </option>
-            </select>
+                  <select class="custom-select">
+                    <option value selected="selected">Pas de séléction</option>
+                    <option value="0"> Néolithique (jusque vers -2200) </option>
+                    <option value="1"> Age du Bronze (de -2200 à -750) </option>
+                    <option value="2"> Premier Age du Fer (de -750 à -475) </option>
+                    <option value="3"> Deuxième Age du Fer (de -475 à -30) </option>
+                    <option value="4"> Epoque romaine (de -30 à +500) </option>
+                    <option value="5"> Haut Moyen Age (de 500 à 800) </option>
+                    <option value="6"> Moyen Age central(de 800 à 1250) </option>
+                    <option value="7"> Bas Moyen Age (de 1250 à 1450) </option>
+                    <option value="8"> Gothique / Moderne (de 1450 à 1600) </option>
+                    <option value="9"> Proto-industriel (de 1600 à 1914) </option>
+                  </select>
             <br/><br/>
 
             <!-- Periodes 2 for the researches -->
 
-            <label for="periodes">Périodes 2:</label>
+            <label for="periodes">Périodes 2 :</label>
             <br/>
-            <select class="custom-select">
-            <option value selected="selected">Pas de séléction</option>
-            <option value="0"> Néolithique (jusque vers -2200) </option>
-            <option value="1"> Age du Bronze (de -2200 à -750) </option>
-            <option value="2"> Premier Age du Fer (de -750 à -475) </option>
-            <option value="3"> Deuxième Age du Fer (de -475 à -30) </option>
-            <option value="4"> Epoque romaine (de -30 à +500) </option>
-            <option value="5"> Haut Moyen Age (de 500 à 800) </option>
-            <option value="6"> Moyen Age central(de 800 à 1250) </option>
-            <option value="7"> Bas Moyen Age (de 1250 à 1450) </option>
-            <option value="8"> Gothique / Moderne (de 1450 à 1600) </option>
-            <option value="9"> Proto-industriel (de 1600 à 1914) </option>
-            </select>
+                  <select class="custom-select">
+                    <option value selected="selected">Pas de séléction</option>
+                    <option value="0"> Néolithique (jusque vers -2200) </option>
+                    <option value="1"> Age du Bronze (de -2200 à -750) </option>
+                    <option value="2"> Premier Age du Fer (de -750 à -475) </option>
+                    <option value="3"> Deuxième Age du Fer (de -475 à -30) </option>
+                    <option value="4"> Epoque romaine (de -30 à +500) </option>
+                    <option value="5"> Haut Moyen Age (de 500 à 800) </option>
+                    <option value="6"> Moyen Age central(de 800 à 1250) </option>
+                    <option value="7"> Bas Moyen Age (de 1250 à 1450) </option>
+                    <option value="8"> Gothique / Moderne (de 1450 à 1600) </option>
+                    <option value="9"> Proto-industriel (de 1600 à 1914) </option>
+                  </select>
+            <br/><br/>
+          </div>
+            <!-- Themes 1 for the researches -->
 
-
-            <label for="themes">Thèmes 1:</label>
-            		<select class="custom-select">
+            <div id="themes">
+            <h4 class="themes-title">Thèmes</h4>
+            <label for="themes">Thèmes 1 :</label>
+            <br/>
+            		<select class="custom-select themes">
             				<option value="17"> Ameublement </option>
             				<option value="9"> Argenterie </option>
             				<option value="25"> Armement </option>
@@ -115,9 +120,55 @@
             				<option value="19"> Vaisselle en verre </option>
             				<option value="18"> Vaisselle métallique </option>
             			</select>
-          </form>
+                  <br/><br/>
 
+                  <!-- Themes 2 for the researches -->
+
+            <label for="themes">Thèmes 2 :</label>
+            <br/>
+                <select class="custom-select themes">
+                    <option value="17"> Ameublement </option>
+                    <option value="9"> Argenterie </option>
+                    <option value="25"> Armement </option>
+                    <option value="3"> Ateliers </option>
+                    <option value="21"> Bijoux </option>
+                    <option value="27"> Char, attelage, harnais </option>
+                    <option value="31"> Commerce </option>
+                    <option value="30"> Construction, bâtiment </option>
+                    <option value="33"> Divers </option>
+                    <option value="26"> Equipement militaire </option>
+                    <option value="11"> Estampilles </option>
+                    <option value="12"> Graffites, inscriptions manuscrites </option>
+                    <option value="1"> Généralités </option>
+                    <option value="10"> Instruments de l'écriture </option>
+                    <option value="28"> Instruments de musique </option>
+                    <option value="24"> Instruments médicaux </option>
+                    <option value="20"> Lampes, éclairage </option>
+                    <option value="34"> Matériel ludique </option>
+                    <option value="32"> Mesure, pesage </option>
+                    <option value="2"> Mines et carrières </option>
+                    <option value="23"> Objets de toilette </option>
+                    <option value="29"> Objets en bois, os, corne, ivoire... </option>
+                    <option value="4"> Outillage </option>
+                    <option value="22"> Parure, vêtement </option>
+                    <option value selected = "selected"> Pas de sélection </option>
+                    <option value="14"> Sculpture en bois </option>
+                    <option value="13"> Sculpture en pierre </option>
+                    <option value="5"> Sidérurgie, travail du fer </option>
+                    <option value="8"> Sparterie, textile </option>
+                    <option value="15"> Statues / statuettes en bronze </option>
+                    <option value="16"> Statuettes en terre cuite </option>
+                    <option value="6"> Travail du bronze </option>
+                    <option value="7"> Travail du cuir </option>
+                    <option value="19"> Vaisselle en verre </option>
+                    <option value="18"> Vaisselle métallique </option>
+                  </select>
+                  <br/><br/>
+
+          </form>
         </div>
+
+      </div>
     </head>
     <body>
     </body>

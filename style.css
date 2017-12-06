@@ -8379,15 +8379,17 @@ p
   font-size: 50px;
 }
 
-h1.titre
+h1.title
 {
   padding-bottom: 10px;
+  text-shadow: 0.75px 0.75px 0.75px grey;
 }
 
 a
 {
   color: #FF542F;
   font-size: 20px;
+  text-shadow: 0.5px 0.5px 0.5px grey;
 }
 
 a:hover
@@ -8401,7 +8403,18 @@ form
   padding-top: 50px;
 }
 
-select.custom-select
+h4
+{
+  text-shadow: 0.5px 0.5px 0.5px grey;
+}
+
+#periodes
 {
   display: inline-block;
+}
+
+#themes
+{
+  display: inline-block;
+  margin-left: 30px;
 }
