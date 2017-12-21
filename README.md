@@ -18,8 +18,9 @@ This project is a task performed during the **YDays** project of the **Ynov** sc
 
 ### List of my Learning series at Ynov :
 
-* [Learning Scripting](https://github.com/ImMyst/Learning-Scripting-B2)
 * [Learning C#](https://github.com/ImMyst/Learning-CSharp-B2)
+* [Learning Scripting](https://github.com/ImMyst/Learning-Scripting-B2)
+* [Learning Java](https://github.com/ImMyst/Learning-Java-B1)
 
 ### List of my other repositories :
 
