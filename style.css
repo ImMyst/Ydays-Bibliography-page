@@ -7840,6 +7840,12 @@ a.text-dark:focus, a.text-dark:hover {
 
 /*# sourceMappingURL=bootstrap.css.map */
 
+
+
+#### Start of the css style for Bibliography page ####
+
+
+
 p {
   font-size: 50px;
 }
@@ -7849,13 +7855,13 @@ h1.title {
   text-shadow: 0.75px 0.75px 0.75px grey;
 }
 
-a {
+.alphabet {
   color: #FF542F;
   font-size: 20px;
   text-shadow: 0.5px 0.5px 0.5px grey;
 }
 
-a:hover {
+.alphabet:hover {
   text-decoration: overline;
   color: #971B00;
 }
