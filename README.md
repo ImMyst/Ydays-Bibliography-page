@@ -21,6 +21,7 @@ This project is a task performed during the **YDays** project of the **Ynov** sc
 * [Learning C#](https://github.com/ImMyst/Learning-CSharp-B2)
 * [Learning Scripting](https://github.com/ImMyst/Learning-Scripting-B2)
 * [Learning Java](https://github.com/ImMyst/Learning-Java-B1)
+* [Learning Web Integration](https://github.com/ImMyst/Learning-Web-integration)
 
 ### List of my other repositories :
 
